@@ -46,3 +46,10 @@ Here is the complete introduction video
 Visit http://www.executeautomation.com
 
 Automation framework development with Selenium C# (Advanced) - https://www.udemy.com/framework-development-with-selenium-csharp-advanced/
+
+##Fixing Execute Automation .Net projects
+Run the following in the Package Manager Console
+Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+
+Change database connection string in web config
+ -> Integrated Security=True to user=sa;password=P@ssw0rd1;
